@@ -1,38 +1,256 @@
 .App {
-  text-align: center;
+
+    background: #1d3140;
+    height: 1000px;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+label {
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 75px;
+    font-weight: bold;
+    color: #1d3140;
 }
+
+input {
+    position: absolute;
+    left: 75px;
+    right: 75px;
+
+
+}
+
+
+input[type="date"] {
+    width: 125px;
+
+}
+
+.select {
+    width: 300px;
+    margin-left: 75px;
+}
+
+
+.list-box {
+    position: absolute;
+    left: 150px;
+    margin-top: 100px;
+    background: white;
+    border-radius: 15px;
+    border: black 1px;
+
+}
+
+.detail-box {
+    position: absolute;
+    width:450px;
+    left: 150px;
+    margin-top: 100px;
+    background: white;
+    border-radius: 15px;
+    border: black 1px;
+
+}
+
+.list-box2 {
+      position: absolute;
+    right: 150px;
+    width: 450px;
+    background: white;
+    margin-top: 500px;
+
+    border-radius: 15px;
+    border: black 1px;
+
+}
+
+.name-col {
+
+    width: 300px;
+}
+
+.name-col-two {
+
+    width: 280px;
+}
+
+.name-col-date {
+
+    width: 100px;
+}
+.name-col-class{
+
+    width: 150px;
+}
+
+.popup-delete {
+    width: 500px;
+    height: 200px;
+
+}
+
+.popup-delete h3 {
+    text-align: center;
+    width: 500px;
+    left: 0;
+    right: 0;
+
+
+}
+
+.button-container {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.popup-delete button {
+    width: 100px;
+    margin: 25px;
+}
+
+
+.list-box button {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.input-form {
+    position: absolute;
+    right: 150px;
+    width: 450px;
+    background: white;
+    margin-top: 100px;
+
+    border-radius: 15px;
+    border: black 1px;
+}
+
+
+.input-form button {
+    margin-left: 75px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+
+}
+
+.input-form2 {
+    position: absolute;
+    right: 150px;
+    width: 450px;
+    background: white;
+    margin-top: 100px;
+
+    border-radius: 15px;
+    border: black 1px;
+}
+
+
+.input-form2 button {
+    margin-left: 75px;
+
+
+
+}
+
+.center-form {
+    position: absolute;
+    width: 450px;
+    background: white;
+    left: 0;
+    right: 0;
+    top: 150px;
+    margin: auto;
+    border-radius: 15px;
+    border: black 1px;
+}
+
+
+.email-form {
+    position: absolute;
+    width: 450px;
+    height: 500px;
+    background: white;
+    left: 0;
+    right: 0;
+    top: 150px;
+    margin: auto;
+    border-radius: 15px;
+    border: black 1px;
+}
+.email-form button{
+
+    margin-left: 75px;
+    width: 100px;
+    margin-bottom: 10px;
+    margin-top: 125px;
+}
+
+.title {
+    margin-left: 75px;
+
+}
+
+.list-text {
+    margin-left: 75px;
+    width: 250px;
+    font-weight: bold;
+}
+
+option {
+    margin-left: 75px;
+}
+
+
+.center-form button {
+
+    margin-left: 75px;
+    width: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+
+
+}
+
+
+.email-body {
+    position: absolute;
+    left: 75px;
+    right: 75px;
+    resize: none;
+
+}
+
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
