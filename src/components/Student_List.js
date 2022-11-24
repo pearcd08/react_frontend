@@ -237,7 +237,7 @@ function Student_List(props) {
 
                     <h2 className="title">Students</h2>
 
-                    <table class="table table-striped">
+                    <table className={"table table-striped"}>
 
                         <tbody>
 
